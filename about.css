@@ -63,6 +63,17 @@ body{
     display: block;
 }
 
+.container p{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 25px;
+    font-family: montserrat, sans-serif;
+}
+
+.container a{
+    color: #8f0026;
+}
+
 .tuukka-pic{
     margin-left: auto;
     margin-right: auto;
@@ -119,7 +130,7 @@ body{
 .skill{
     font-family: montserrat, sans-serif;
     font-size: 1.5rem;
-    border: 2.5px solid #8f0026;
+    border: 3.5px solid #8f0026;
 }
 
 .resume-table{
@@ -134,7 +145,8 @@ body{
 }
 
 .job{
-    border: 1px solid #000;
+    border: 2px solid #000;
+    box-shadow: 3px 3px #9A193B80;
     padding: 0px 10px;
 }
 
@@ -169,8 +181,9 @@ body{
 }
 
 .school{
-    border: 1px solid #000;
+    border: 2px solid #000;
     padding: 0px 10px;
+    box-shadow: 3px 3px #9A193B80;
 }
 
 .school h3{
@@ -186,6 +199,10 @@ body{
 }
 
 @media only screen and (max-width: 500px){
+    .container p{
+        font-size: 1.25rem;
+    }
+
     #about{
         font-family: montserrat, sans-serif;
         font-size: 1.25rem;
@@ -260,6 +277,10 @@ body{
 }
 
 @media only screen and (min-width: 500px) and (max-width:700px){
+    .container p{
+        font-size: 1.25rem;
+    }
+
     .skills-table{
         display: grid;
         width: 90%;
@@ -309,6 +330,10 @@ body{
 }
 
 @media only screen and (min-width:700px) and (max-width:850px){
+    .container p{
+        font-size: 1.25rem;
+    }
+
     .skill{
         font-size: 1.25rem;
     }

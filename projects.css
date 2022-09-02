@@ -71,6 +71,7 @@ body{
     margin-right: auto;
     width: 80%;
     text-align: center;
+    line-height: 2.5rem;
 }
 
 .project{
@@ -88,4 +89,39 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
+}
+
+@media only screen and (max-width:500px){
+    .container p{
+        font-size:1.25rem;
+        line-height: 2rem;
+    }
+    
+    .container h1{
+        font-size: 2.5rem;
+    }
+
+    #raspberry-1{
+        width:375px;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .container h1{
+        font-size: 2rem;
+    }
+
+    .container p{
+        line-height: 2rem;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .container p{
+        line-height: 2rem;
+    }
+
+    #raspberry-1{
+        width: 300px;
+    }
 }

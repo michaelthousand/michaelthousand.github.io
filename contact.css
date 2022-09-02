@@ -50,3 +50,31 @@ body{
 
 
 /*begin unique for page*/
+
+.contact-list{
+    display: block;
+    text-align: center;
+    list-style-type: none;
+    margin: 70px 0px;
+}
+
+.contact-list li{
+    font-family: quicksand, sans-serif;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    padding: 20px 0px;
+}
+
+.contact-list a{
+    color: #8f0026;
+}
+
+.contact-list a:hover{
+    font-style: italic;
+}
+
+@media only screen and (max-width: 470px){
+    .contact-list li{
+        font-size: 1.5rem;
+    }
+}
