@@ -1,0 +1,53 @@
+html{
+    font-size: 16px;
+}
+
+.navbar{
+    text-align: right;
+    background-color: #000;
+    border-bottom: 4px solid #8f0026;
+    line-height: 2.5rem;
+}
+
+.navbar li{
+    display:inline-block;
+    font-family: quicksand;
+    padding: 5px 10px;
+    margin-right: 5px;
+    color:#fff;
+    font-size: 2rem;
+}
+
+.navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover{
+    font-style: italic;
+}
+
+.navbar a:active{
+    color:#8f0026;
+}
+
+.footer{
+    color:#fff;
+    font-family: raleway, sans-serif;
+    padding-left: 15px;
+    text-align: left;
+    background-color: #000;
+    border-top: 4px solid #8f0026;
+    line-height: 1.75rem;
+    display: block;
+    font-size: 0.85rem;
+}
+
+body{
+    background-image: linear-gradient(#C9C6C640, #F1F2F640);
+}
+
+
+
+/*begin unique for page*/

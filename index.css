@@ -1,0 +1,222 @@
+html{
+    font-size: 16px;
+}
+
+.navbar{
+    text-align: right;
+    background-color: #000;
+    border-bottom: 4px solid #8f0026;
+    line-height: 2.5rem;
+}
+
+.navbar li{
+    display:inline-block;
+    font-family: quicksand;
+    padding: 5px 10px;
+    margin-right: 5px;
+    color:#fff;
+    font-size: 2rem;
+}
+
+.navbar a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar a:hover{
+    font-style: italic;
+}
+
+.navbar a:active{
+    color:#8f0026;
+}
+
+.footer{
+    color:#fff;
+    font-family: raleway, sans-serif;
+    padding-left: 15px;
+    text-align: left;
+    background-color: #000;
+    border-top: 4px solid #8f0026;
+    line-height: 1.75rem;
+    display: block;
+    font-size: 0.85rem;
+}
+
+body{
+    background-image: linear-gradient(#C9C6C640, #F1F2F640);
+}
+
+
+/*begin unique for page*/
+h1{
+    font-family: raleway, sans-serif;
+    font-size: 4.5rem;
+}
+
+#title{
+    display: flex;
+    gap: 10px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+#name{
+    color: #8f0026;
+}
+
+.container{
+    display: block;
+}
+
+.container h2{
+    font-style: italic;
+    font-family: quicksand, sans-serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.body{
+    font-family: montserrat, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    /*background-color: #8f0026;*/
+    background-image: linear-gradient(#72001E, #8f0026);
+    width: 75%;
+    line-height: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 30px 35px;
+    color:#fff;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+}
+
+.profile-pic{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 300px;
+    background-image: url("../content/UWM.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button{
+    border: 3px solid #8f0026;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: raleway, sans-serif;
+    font-size: 1.75rem;
+    text-align: center;
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.button:hover{
+    cursor: pointer;
+    font-style: italic;
+}
+
+.button:active{
+    background-image: linear-gradient(#72001E, #8f0026);
+}
+
+.button a{
+    text-decoration: none;
+    color: #000;
+}
+
+.button a:active{
+    color: #fff;
+}
+
+@media only screen and (max-width: 450px){
+    .navbar{
+        text-align: right;
+        background-color: #000;
+        border-bottom: 4px solid #8f0026;
+        line-height: 2rem;
+    }
+    
+    .navbar li{
+        display:inline;
+        font-family: quicksand;
+        padding: 5px 10px;
+        margin-right: 5px;
+        color:#fff;
+        font-size: 1rem;
+    }
+
+    h1{
+        font-family: raleway, sans-serif;
+        font-size: 2.5rem;
+    }
+
+    #title{
+        display: flex;
+        gap: 10px;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -40px;
+    }
+
+    .container h2{
+        font-style: italic;
+        font-family: quicksand, sans-serif;
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .body{
+        font-family: montserrat, sans-serif;
+        font-size: 1rem;
+        text-align: center;
+        background-image: linear-gradient(#72001E, #8f0026);
+        width: 75%;
+        line-height: 1.75rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+        padding: 30px 35px;
+        color:#fff;
+        outline: 2px solid #fff;
+        outline-offset: -10px;
+    }
+    
+    .profile-pic{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        height: 250px;
+        width: 250px;
+        background-image: url("../content/UWM.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .footer{
+        color:#fff;
+        font-family: raleway, sans-serif;
+        padding-left: 15px;
+        text-align: left;
+        background-color: #000;
+        border-top: 4px solid #8f0026;
+        line-height: 1.5rem;
+        display: block;
+        font-size: 0.75rem;
+    }
+}
