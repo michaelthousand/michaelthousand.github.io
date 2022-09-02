@@ -153,6 +153,7 @@ body{
 .date{
     font-style: italic;
     opacity: 80%;
+    text-decoration: none;
 }
 
 .edu-table{
