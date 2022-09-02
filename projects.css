@@ -121,6 +121,10 @@ body{
         line-height: 2rem;
     }
 
+    .container h1{
+        font-size: 1.75rem;
+    }
+
     #raspberry-1{
         width: 300px;
     }
