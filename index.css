@@ -103,7 +103,7 @@ h1{
     margin-bottom: 20px;
     height: 300px;
     width: 300px;
-    background-image: url("../content/UWM.png");
+    background-image: url("./UWM.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
