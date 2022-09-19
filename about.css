@@ -2,26 +2,27 @@ html{
     font-size: 16px;
 }
 
+body{
+    background-image: linear-gradient(#000, #000000b6);
+    background-repeat: no-repeat;
+}
+
 .navbar{
-    text-align: right;
-    background-color: #000;
-    border-bottom: 4px solid #8f0026;
-    line-height: 2.5rem;
+    text-align: center;
+    background-color: #0000009f;
+    line-height: 4rem;
 }
 
 .navbar li{
-    display:inline-block;
-    font-family: quicksand;
-    padding: 5px 10px;
-    margin-right: 5px;
-    color:#fff;
-    font-size: 2rem;
+    font-family: quicksand, sans-serif;
+    font-size: 2.5rem;
+    display: inline;
+    padding: 25px;
 }
 
 .navbar a{
-    color:#fff;
+    color: #fff;
     text-decoration: none;
-    font-size: 1.5rem;
 }
 
 .navbar a:hover{
@@ -29,91 +30,94 @@ html{
 }
 
 .navbar a:active{
-    color:#8f0026;
+    color: #E0C100;
 }
 
 .footer{
-    color:#fff;
-    font-family: raleway, sans-serif;
-    padding-left: 15px;
-    text-align: left;
-    background-color: #000;
-    border-top: 4px solid #8f0026;
-    line-height: 1.75rem;
-    display: block;
-    font-size: 0.85rem;
-}
-
-body{
-    background-image: linear-gradient(#C9C6C640, #F1F2F640);
-}
-
-
-/*begin unique for page*/
-.container h1{
-    background-image: linear-gradient(#454545, #2b2b2b);
+    text-align: center;
+    background-color: #0000009f;
+    line-height: 4rem;
+    margin-bottom: 0px;
+    margin-top: 425px;
     color: #fff;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: raleway, sans-serif;
+    font-family: montserrat, sans-serif;
+    font-size: 1.5rem;
+}
+
+
+/*begin unique for this page*/
+
+#top-section{
+    display: inline-flex;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+#top-section img{
+    height: 1014px;
+    width: 580.5px;
+}
+
+#top-section p{
+    padding:175px 100px 100px 100px;
+    color:#fff;
+    font-family: montserrat, sans-serif;
     font-size: 3rem;
-    outline: 2px solid #fff;
-    outline-offset: -10px;
-    display: block;
-}
-
-.container p{
     text-align: center;
-    font-size: 1.5rem;
-    padding-bottom: 25px;
+    line-height: 5rem;
+}
+
+#mid-section{
+    display: inline-flex;
+    padding: 50px;
+}
+
+#mid-section img{
+    height: 580.5px;
+    width: 1014px;
+}
+
+
+#mid-section p{
+    padding: 20px 100px 100px 100px;
+    color:#fff;
     font-family: montserrat, sans-serif;
-}
-
-.container a{
-    color: #8f0026;
-}
-
-.tuukka-pic{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    height: 350px;
-    width: 500px;
-    background-image: url("./withTuuks.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: hidden;
-}
-
-#about{
-    font-family: montserrat, sans-serif;
-    font-size: 1.25rem;
+    font-size: 3rem;
     text-align: center;
-    width: 80%;
-    line-height: 2.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    padding: 30px 35px;
-    color:#000;
-    outline: 2px solid #8f0026;
-    outline-offset: -10px;
-    background-color: #fff;
+    line-height: 5rem;
 }
 
-#about a{
-    color:#8f0026;
+#bot-section{
+    display: inline-flex;
+    padding: 50px;
 }
 
-#about a:hover{
-    font-style: italic;
+#bot-section img{
+    height: 580.5px;
+    width: 1014px;
 }
 
-#about strong{
-    font-size: 1.5rem;
+
+#bot-section p{
+    padding: 120px 100px 100px 100px;
+    color:#fff;
+    font-family: montserrat, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 5rem;
+}
+
+.container h1{
     font-family: quicksand, sans-serif;
+    font-size: 5rem;
+    line-height: 7rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-shadow: 5px 5px #000;
+    background-color: #0000009f;
+    background-size: contain;
 }
 
 .skills-table{
@@ -121,7 +125,7 @@ body{
     width: 82.5%;
     position: relative;
     margin: auto;
-    gap: 20px;
+    gap: 30px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     text-align:center;
@@ -129,8 +133,12 @@ body{
 
 .skill{
     font-family: montserrat, sans-serif;
-    font-size: 1.5rem;
-    border: 3.5px solid #8f0026;
+    font-size: 2.5rem;
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: 3.5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0.473);
 }
 
 .resume-table{
@@ -141,25 +149,42 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
-    gap: 10px;
+    gap: 30px;
+}
+
+#resume-line {
+    color:#fff;
+    font-size: 2rem;
+    font-family: montserrat, sans-serif;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+#resume-line a{
+    color:#E0C100;
 }
 
 .job{
     border: 2px solid #000;
-    box-shadow: 3px 3px #9A193B80;
-    padding: 0px 10px;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0.473);
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: 3.5px solid #fff;
+    border-radius: 10px;
 }
 
 .job h3{
     font-family: quicksand, sans-serif;
     font-size: 2.5rem;
-    color: #8f0026;
-    text-shadow: 1.25px 1.25px #00000099;
+    color:#fff;
+    text-decoration: underline;
 }
 
 .job p{
     font-family: montserrat, sans-serif;
     font-size: 1.5rem;
+    color: #fff;
 }
 
 .date{
@@ -176,77 +201,516 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
-    gap: 10px;
-    padding-bottom: 40px;
+    gap: 30px;
+    
+    padding-top: 50px;
 }
 
 .school{
     border: 2px solid #000;
-    padding: 0px 10px;
-    box-shadow: 3px 3px #9A193B80;
+    box-shadow: 3px 3px rgba(255, 255, 255, 0.473);
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.295);
+    border: 3.5px solid #fff;
+    border-radius: 10px;
 }
 
 .school h3{
     font-family: quicksand, sans-serif;
     font-size: 2.5rem;
-    color: #8f0026;
+    color: #fff;
+    text-decoration: underline;
     text-shadow: 1.25px 1.25px #00000099;
 }
 
 .school p{
     font-family: montserrat, sans-serif;
     font-size: 1.5rem;
+    color:#fff;
 }
 
-@media only screen and (max-width: 500px){
-    .container p{
-        font-size: 1.25rem;
+@media only screen and (max-width: 2250px) {
+    #top-section p{
+        padding-top:125px;
+        padding-right: 0px;
     }
 
-    #about{
-        font-family: montserrat, sans-serif;
-        font-size: 1.25rem;
-        text-align: center;
-        width: 80%;
-        line-height: 2.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 40px;
-        padding: 30px 35px;
-        color:#000;
-        outline: 2px solid #8f0026;
-        outline-offset: -10px;
-        background-color: #fff;
-    }    
+    #mid-section p{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
 
-    .skills-table{
-        display: grid;
-        width: 90%;
-        position: relative;
-        margin: auto;
-        gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        text-align:center;
+    #bot-section p{
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1975px) {
+    #top-section p{
+        padding-top: 70px;
+    }
+
+    #top-section{
+        padding-bottom: 20px;
+    }
+
+    #mid-section{
+        padding-bottom: 0px;
+        padding-top: 30px
+    }
+
+    #bot-section{
+        padding-top: 0px;
+    }
+
+    #bot-section p{
+        padding-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 1900px){
+    
+    #mid-section p{
+        line-height: 4.5rem;
+        font-size: 3rem;
+    }
+
+    #bot-section p{
+        padding-top: 70px;
+        line-height: 4.5rem;
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1745px){
+    #top-section p{
+        padding-top: 150px;
+        font-size: 2.75rem;
+        line-height: 4rem;
     }
     
-    .skill{
-        font-family: montserrat, sans-serif;
-        font-size: 1rem;
-        border: 1px solid #8f0026;
+    #mid-section p{
+        line-height: 3.25rem;
+        font-size: 2.25rem;
     }
 
-    .tuukka-pic{
-        width: auto;
+    #bot-section{
+        padding-top: 0px;
+    }
+
+    #bot-section p{
+        padding-top: 150px;
+        line-height: 3.25rem;
+        font-size: 2.25rem;
+    }
+
+    .skill {
+        font-size: 2.25rem;
+    }
+}
+
+@media only screen and (max-width: 1550px) {
+    #top-section{
+        padding-top: 0px;
+    }
+
+    #top-section p{
+        padding-top: 100px;
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+    }
+
+    #mid-section p{
+        line-height: 2.75rem;
+        font-size: 2rem;
+    }
+
+    #bot-section p{
+        padding-top: 100px;
+        line-height: 2.75rem;
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    #top-section img{
+        height: 762.75px;
+        width: 435.375px;
+    }
+
+    #top-section p{
+        padding-top: 40px;
+    }
+    
+    #mid-section img{
+        height: 435.375px;
+        width: 762.75px;
+    }
+
+    #bot-section{
+        padding-top: 50px;
+    }
+
+    #bot-section img{
+        height: 435.375px;
+        width: 762.75px;
+    }
+
+    #bot-section p{
+        padding-top: 70px;
+    }
+
+    .skill {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1275px) {
+    #top-section p{
+        padding-top: 20px;
+        font-size: 2rem;
+        line-height: 2.75rem;
+    }
+
+    #mid-section p{
+        line-height: 2.5rem;
+        font-size: 1.75rem;
+    }
+
+    #bot-section p{
+        line-height: 2.5rem;
+        font-size: 1.75rem;
+        padding-top: 60px;
+    }
+
+    #bot-section{
+        padding-top: 0px;
+    }
+
+    .skill {
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    #top-section img{
+        height: 572px;
+        width: 326.5px;
+    }
+
+    #top-section p{
+        padding-top: 0px;
+    }
+    
+    #mid-section img{
+        height: 326.5px;
+        width: 572px;
+    }
+
+    #mid-section p{
+        line-height: 2.25rem;
+        font-size: 1.5rem;
+    }
+
+    #bot-section p{
+        line-height: 2.25rem;
+        font-size: 1.5rem;
+        padding-top: 50px;
+    }
+
+    #bot-section img{
+        height: 326.5px;
+        width: 572px;
+    }
+
+    .skill{
+        font-size: 1.5rem;
+    }
+
+    .job h3{
+        font-size: 2rem;
+    }
+
+    .school h3{
+        font-size: 2rem;
+    }
+
+    #resume-line{
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+    #top-section p{
+        line-height: 2.25rem;
+        font-size: 1.5rem;
+    }
+
+    #bot-section p{
+        padding-top: 0px;
+    }
+
+    #resume-line{
+        font-size: 1.5rem;
+    }
+
+    .job p{
+        font-size: 1.25rem;
+    }
+    
+    .skills-table{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #top-section{
+        padding-left: 0px;
+    }
+
+    #top-section p{
+        padding-left: 20px;
+    }
+    
+    #mid-section{
+        padding-left: 20px;
+    }
+
+    #mid-section p{
+        padding-right: 20px;
+        line-height: 2rem;
+        font-size: 1.25rem;
+    }
+
+    #bot-section{
+        padding-left: 0px;
+    }
+
+    #bot-section p{
+        padding-left: 20px;
+        padding-top: 50px;
+        line-height: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .skills-table{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .skill{
+        font-size: 2rem;
+    }
+
+    .resume-table{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .job h3{
+        font-size: 3rem;
+    }
+
+    .job p{
+        font-size: 1.75rem;
+    }
+
+    .edu-table{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .school h3{
+        font-size: 3rem;
+    }
+
+    
+    .footer{
+        margin-top: 150px;
+    }
+}
+
+/*for Surface Pro 7*/
+@media only screen and (max-width: 915px){
+    #top-section{
+        margin-top: 50px;
+    }
+
+    #mid-section{
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+
+    #mid-section p{
+        padding-bottom: 0px;
+    }
+
+    #bot-section{
+        padding-right: 20px;
+    }
+
+    #bot-section p{
+        padding-top: 60px
+    }
+
+}
+
+@media only screen and (max-width: 815px) {
+    #top-section{
+        display: block;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    #top-section img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #top-section p{
+        padding: 20px 20px 20px 0px;
+        margin: auto;
+    }
+
+    #mid-section{
+        display: block;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    
+    #mid-section img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+    }
+
+    #mid-section p{
+        padding: 20px 20px 20px 0px;
+        margin: auto;
+        line-height: 2.25rem;
+        font-size: 1.5rem;
+    }
+
+    #bot-section{
+        display: block;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    #bot-section img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px;
+    }
+
+    #bot-section p{
+        padding: 20px 20px 20px 0px;
+        margin: auto;
+        line-height: 2.25rem;
+        font-size: 1.5rem;
+    }
+
+    #resume-line{
+        font-size: 1.25rem;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .navbar li{
+        font-size: 1.75rem;
+    }
+
+    #mid-section{
+        padding-left: 0px;
+    }
+
+    #mid-section p{
+        padding-left: 20px;
+    }
+
+    #mid-section img{
+        height: auto;
+        width: 500px;
+    }
+
+    #bot-section img{
+        height: auto;
+        width: 500px;
+    }
+
+    .footer{
+        margin-top: 100px;
+        font-size: 1.25rem;
+        line-height: 3rem;
     }
 
     .container h1{
-        font-size: 2.5rem
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+}
+
+/*for SurfaceDuo*/
+@media only screen and (max-width: 540px) {
+    .navbar {
+        padding: 0px;
     }
 
-    .resume-table{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+    .navbar li{
+        padding: 0px 17px;
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    #top-section{
+        padding-right: 0px;
+    }
+
+    #top-section img{
+        margin-top: -25px;
+        margin-left: 100px;
+    }
+
+    #top-section p{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25px;
+        padding:0px;
+    }
+
+    #mid-section img{
+        margin-left: 11px;
+    }
+
+    #bot-section img{
+        margin-top: 250px;
+        margin-left: 11px;
+    }
+
+    #mid-section p{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 25px;
+        padding:0px;
+    }
+
+    #bot-section{
+        padding-right: 0px;
+    }
+
+    #bot-section p{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -550px;
+        margin-bottom: 320px;
+        padding:0px;
     }
 
     .job h3{
@@ -258,12 +722,7 @@ body{
     }
 
     .edu-table{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .school{
-        padding-bottom: 20px;
+        padding-top: 0px;
     }
 
     .school h3{
@@ -276,101 +735,269 @@ body{
 
 }
 
-@media only screen and (min-width: 500px) and (max-width:700px){
-    .container p{
+/*
+
+@media only screen and (max-width: 515px) {
+    #mid-section img{
+        width: 400px;
+    }
+
+    #bot-section img{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    .navbar li{
+        font-size: 1.25rem;
+    }
+
+    .container h1{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .skill{
+        font-size: 1.5rem;
+    }
+
+    .job h3{
+        font-size: 2rem;
+    }
+
+    .job p{
+        font-size: 1.25rem;
+    }
+
+    .school h3{
+        font-size: 2rem;
+    }
+
+    .school p{
+        font-size: 1.25rem;
+    }
+
+    .footer{
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .navbar li{
+        padding: 15px;
+    }
+
+    #mid-section img{
+        width: 350px;
+    }
+
+    #bot-section img{
+        width: 350px;
+    }
+
+    .skill{
+        font-size: 1.4rem;
+    }
+
+    .footer{
+        font-size: 0.8rem;
+        line-height:2.5rem;
+    }
+}
+
+*/
+
+/*for iphone XR and Galaxy S20 ULtra/A51*/
+@media only screen and (max-width: 415px) {
+    #top-section img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #mid-section img{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #bot-section p{
+        margin-top: -497px;
+        margin-bottom: 240px;
+    }
+
+    #bot-section img{
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container h1{
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+
+    .skills-table{
+        margin-left: 35px;
+    }
+
+    .skill{
+        font-size: 1.5rem;
+    }
+
+    #resume-line{
+        padding-left: 0px;
+    }
+    
+    .footer{
+        font-size: 0.8rem;
+        line-height:2.5rem;
+        margin-top: 80px;
+    }
+}
+
+/*for iphone 12 pro and Pixel 5*/
+@media only screen and (max-width: 395px){
+    .navbar li{
+        padding: 0px 12px;
+        font-size: 1.7rem;
+    }
+
+    #mid-section img{
+        width: 350px;
+    }
+
+    #top-section p{
+        line-height: 2rem;
+        font-size: 1.25rem;
+    }
+
+    #mid-section p{
+        line-height: 2rem;
+        font-size: 1.25rem;
+    }
+
+    #bot-section p{
+        line-height: 2rem;
+        font-size: 1.25rem;
+        margin-top: -385px;
+    }
+
+    #bot-section img{
+        width: 350px;
+        margin-top: 150px;
+    }
+
+    .job h3{
+        font-size: 1.75rem;
+    }
+
+    .job p{
+        font-size: 1rem;
+    }
+
+    .school h3{
+        font-size: 1.75rem;
+    }
+
+    .school p{
+        font-size: 1rem;
+    }
+
+    .container h1{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+/*for iphone SE*/
+@media only screen and (max-width: 380px){
+   
+
+    #top-section p{
+        margin-top: 20px;
+    }
+    .skill{
         font-size: 1.25rem;
     }
 
     .skills-table{
-        display: grid;
-        width: 90%;
-        position: relative;
-        margin: auto;
-        gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        text-align:center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container h1{
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    #resume-line{
+        font-size: 1.15rem;
+    }
+}
+
+/*for Galaxy S8+*/
+@media only screen and (max-width: 360px){
+    .navbar li{
+        padding: 0px 9.5px;
+        font-size: 1.7rem;
     }
     
-    .skill{
-        font-family: montserrat, sans-serif;
-        font-size: 1.5rem;
-        border: 1px solid #8f0026;
+    #mid-section img{
+        width: 330px;
+        padding-left: 0px;
     }
 
-    .resume-table{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+    #bot-section p{
+        margin-top: -398px;
+        margin-bottom: 200px;
     }
 
-    .job h3{
-        font-size: 2rem;
-    }
-
-    .job p{
-        font-size: 1.25rem;
-    }
-
-    .edu-table{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .school{
-        padding-bottom: 20px;
-    }
-
-    .school h3{
-        font-size: 2rem;
-    }
-
-    .school p{
-        font-size: 1.25rem;
+    #bot-section img{
+        width: 330px;
+        padding-left: 0px;
+        margin-top: 170px;
     }
 }
 
-@media only screen and (min-width:700px) and (max-width:850px){
-    .container p{
+/*for Galaxy Fold*/
+@media only screen and (max-width: 300px){
+    .navbar li{
+        padding: 0px 7px;
         font-size: 1.25rem;
     }
 
-    .skill{
+    #top-section img{
+        height: auto;
+        width:250px;
+    }
+
+    #mid-section img{
+        height: auto;
+        width:250px;
+        margin-left: 7px;
+    }
+
+    #bot-section img{
+        height: auto;
+        width:250px;
+        margin-top: 200px;
+        margin-left: 7px;
+    }
+
+    #bot-section p{
+        line-height: 2rem;
         font-size: 1.25rem;
+        margin-top: -375px;
+        margin-bottom: 130px;
     }
 
-    .resume-table{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+    .skills-table{
+        margin-left: 10px;
     }
 
-    .job h3{
-        font-size: 2rem;
-    }
-
-    .job p{
+    #resume-line{
+        padding-left: 0px;
         font-size: 1.25rem;
-    }
-
-    .edu-table{
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
-
-    .school{
-        padding-bottom: 20px;
-    }
-
-    .school h3{
-        font-size: 2rem;
-    }
-
-    .school p{
-        font-size: 1.25rem;
-    }
-}
-
-@media only screen and (max-width:400px){
-    .skill p{
-        font-size: 1.05rem;
     }
 }
