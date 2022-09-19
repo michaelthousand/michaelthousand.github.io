@@ -1,4 +1,4 @@
-/*updated for version 2.0.2*/
+/*updated for version 2.1.0*/
 
 html{
     font-size: 16px;
@@ -19,7 +19,7 @@ body{
     font-family: quicksand, sans-serif;
     font-size: 2.5rem;
     display: inline;
-    padding: 25px;
+    padding: 50px;
 }
 
 .navbar a{
@@ -52,7 +52,7 @@ body{
 #top-section{
     display: inline-flex;
     padding: 50px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 #top-section img{
@@ -231,279 +231,310 @@ body{
     color:#fff;
 }
 
-@media only screen and (max-width: 2250px) {
-    #top-section p{
-        padding-top:125px;
-        padding-right: 0px;
-    }
-
-    #mid-section p{
-        padding-top: 0px;
+/*begin responsive design*/
+@media only screen and (max-width: 2100px){
+    .navbar{
         padding-left: 0px;
     }
-
-    #bot-section p{
-        padding-top: 0px;
-        padding-right: 0px;
-    }
-}
-
-@media only screen and (max-width: 1975px) {
     #top-section p{
-        padding-top: 70px;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 100px;
     }
-
-    #top-section{
-        padding-bottom: 20px;
-    }
-
-    #mid-section{
-        padding-bottom: 0px;
-        padding-top: 30px
-    }
-
-    #bot-section{
-        padding-top: 0px;
-    }
-
-    #bot-section p{
-        padding-top: 40px;
-    }
-}
-
-@media only screen and (max-width: 1900px){
     
     #mid-section p{
-        line-height: 4.5rem;
-        font-size: 3rem;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
     #bot-section p{
-        padding-top: 70px;
-        line-height: 4.5rem;
-        font-size: 3rem;
+        margin-top: auto;
+        margin-bottom: auto;
+        padding-top: 100px;
     }
 }
 
-@media only screen and (max-width: 1745px){
+@media only screen and (max-width: 1850px){
+    #top-section{
+        margin-top: 50px;
+    }
+
     #top-section p{
-        padding-top: 150px;
-        font-size: 2.75rem;
+        padding: 0px;
+        padding-left: 30px;
+    }
+
+    #mid-section p{
+        padding: 0px;
+        padding-right: 30px;
+    }
+
+    #bot-section p{
+        padding:0px;
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1640px){
+    #mid-section p{
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    #bot-section p{
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1500px){
+    #top-section p{
+        font-size: 2.5rem;
         line-height: 4rem;
     }
     
     #mid-section p{
-        line-height: 3.25rem;
         font-size: 2.25rem;
-    }
-
-    #bot-section{
-        padding-top: 0px;
+        line-height: 3.75rem;
     }
 
     #bot-section p{
-        padding-top: 150px;
-        line-height: 3.25rem;
         font-size: 2.25rem;
-    }
-
-    .skill {
-        font-size: 2.25rem;
-    }
-}
-
-@media only screen and (max-width: 1550px) {
-    #top-section{
-        padding-top: 0px;
-    }
-
-    #top-section p{
-        padding-top: 100px;
-        font-size: 2.5rem;
-        line-height: 3.25rem;
-    }
-
-    #mid-section p{
-        line-height: 2.75rem;
-        font-size: 2rem;
-    }
-
-    #bot-section p{
-        padding-top: 100px;
-        line-height: 2.75rem;
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width: 1400px) {
-    #top-section img{
-        height: 762.75px;
-        width: 435.375px;
-    }
-
-    #top-section p{
-        padding-top: 40px;
-    }
-    
-    #mid-section img{
-        height: 435.375px;
-        width: 762.75px;
-    }
-
-    #bot-section{
-        padding-top: 50px;
-    }
-
-    #bot-section img{
-        height: 435.375px;
-        width: 762.75px;
-    }
-
-    #bot-section p{
-        padding-top: 70px;
-    }
-
-    .skill {
-        font-size: 2rem;
-    }
-}
-
-@media only screen and (max-width: 1275px) {
-    #top-section p{
-        padding-top: 20px;
-        font-size: 2rem;
-        line-height: 2.75rem;
-    }
-
-    #mid-section p{
-        line-height: 2.5rem;
-        font-size: 1.75rem;
-    }
-
-    #bot-section p{
-        line-height: 2.5rem;
-        font-size: 1.75rem;
-        padding-top: 60px;
-    }
-
-    #bot-section{
-        padding-top: 0px;
-    }
-
-    .skill {
-        font-size: 1.75rem;
-    }
-}
-
-@media only screen and (max-width: 1150px) {
-    #top-section img{
-        height: 572px;
-        width: 326.5px;
-    }
-
-    #top-section p{
-        padding-top: 0px;
-    }
-    
-    #mid-section img{
-        height: 326.5px;
-        width: 572px;
-    }
-
-    #mid-section p{
-        line-height: 2.25rem;
-        font-size: 1.5rem;
-    }
-
-    #bot-section p{
-        line-height: 2.25rem;
-        font-size: 1.5rem;
-        padding-top: 50px;
-    }
-
-    #bot-section img{
-        height: 326.5px;
-        width: 572px;
+        line-height: 3.75rem;
     }
 
     .skill{
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+}
+
+/*for Surface Pro 7 - horizontal */
+@media only screen and (max-width: 1370px){
+    #navbar{
+        padding-left: 0px;
+    }
+
+    #top-section{
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #mid-section{
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #mid-section img{
+        width: 762.75px;
+        height: auto;
+    }
+
+    #mid-section p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    #bot-section{
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #bot-section img{
+        width: 762.75px;
+        height: auto;
+    }
+
+    #bot-section p{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+/*for iPad Air - horizontal*/
+@media only screen and (max-width: 1180px){
+    #top-section p{
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+
+    #top-section img{
+        height: 762.75px;
+        width: auto;
+    }
+
+    #mid-section p{
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+
+    #mid-section img{
+        width: 762.75px;
+        height: auto;
+    }
+
+    #bot-section p{
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+
+    #bot-section img{
+        width: 762.75px;
+        height: auto;
+    }
+
+    .skill{
+        font-size: 1.75rem;
+    }
+
+    #resume-line{
+        font-size: 1.75rem;
+    }
+
+    .footer{
+        margin-top: 200px;
+    }
+
+    .container h1{
+        font-size: 4rem;
+        line-height: 6rem;
     }
 
     .job h3{
         font-size: 2rem;
     }
 
+    .job p{
+        font-size: 1.25rem;
+    }
+
     .school h3{
         font-size: 2rem;
     }
 
-    #resume-line{
-        font-size: 1.75rem;
-    }
-}
-
-@media only screen and (max-width: 1050px) {
-    #top-section p{
-        line-height: 2.25rem;
-        font-size: 1.5rem;
-    }
-
-    #bot-section p{
-        padding-top: 0px;
-    }
-
-    #resume-line{
-        font-size: 1.5rem;
-    }
-
-    .job p{
+    .school p{
         font-size: 1.25rem;
     }
     
-    .skills-table{
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-    }
 }
 
-@media only screen and (max-width: 1000px) {
-    #top-section{
-        padding-left: 0px;
+/*for iPad Mini - horizontal*/
+@media only screen and (max-width: 1024px){
+    #top-section img{
+        height: 572px;
     }
 
     #top-section p{
-        padding-left: 20px;
+        font-size: 2rem;
+        line-height: 3rem;
     }
-    
-    #mid-section{
-        padding-left: 20px;
+
+    #mid-section img{
+        width: 572px;
     }
 
     #mid-section p{
-        padding-right: 20px;
+        font-size: 1.5rem;
         line-height: 2rem;
-        font-size: 1.25rem;
     }
 
-    #bot-section{
-        padding-left: 0px;
+    #bot-section img{
+        width: 572px;
     }
 
     #bot-section p{
-        padding-left: 20px;
-        padding-top: 50px;
+        font-size: 1.5rem;
         line-height: 2rem;
-        font-size: 1.25rem;
+    }
+    
+    .skill{
+        font-size: 1.5rem;
     }
 
-    .skills-table{
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    #resume-line{
+        font-size: 1.5rem;
+        padding-left: 5px;
+    }
+    
+    .footer{
+        font-size: 1.25rem;
+    }
+}
+
+/*for Pixel 5 - horizontal*/
+@media only screen and (max-width: 900px){
+    .navbar li{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        padding: 0px 50px;
+    }
+
+    #top-section p{
+        font-size: 1.75rem;
+        line-height: 2.5rem;
+    }
+
+    #mid-section img{
+        width: 429px;
+    }
+
+    #bot-section img{
+        width: 429px;
+    }
+
+    .container h1{
+        font-size: 3.5rem;
+        line-height: 5rem;
+        margin-top: 75px;
     }
 
     .skill{
-        font-size: 2rem;
+        font-size: 1.25rem;
+    }
+
+    #resume-line{
+        font-size: 1.25rem;
+    }
+
+    .edu-table{
+        padding-top: 0px;
+    }
+
+    .footer{
+        font-size: 1.15rem;
+    }
+}
+
+/*for Galaxy S8+ - horizontal */
+@media only screen and (max-width: 760px){
+    #top-section{
+        padding: 0px 10px 20px 10px;
+    }
+
+    #top-section p{
+        font-size: 1.75rem;
+        line-height: 2.25rem;
+    }
+
+    #mid-section{
+        padding: 0px 10px 20px 10px;
+    }
+
+    #bot-section{
+        padding: 0px 10px 20px 10px;
+    }
+
+    .skills-table{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    #resume-line{
+        padding-left: 0px;
     }
 
     .resume-table{
@@ -511,564 +542,307 @@ body{
         grid-template-rows: 1fr 1fr 1fr;
     }
 
-    .job h3{
-        font-size: 3rem;
-    }
-
-    .job p{
-        font-size: 1.75rem;
-    }
-
     .edu-table{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
 
-    .school h3{
-        font-size: 3rem;
-    }
-
-    
-    .footer{
-        margin-top: 150px;
-    }
-}
-
-/*for Surface Pro 7 & iphone XR and Galaxy S20 ULtra/A51 - horizontal*/
-@media only screen and (max-width: 920px){
-    #top-section{
-        margin-top: 50px;
-        padding-right: 0px;
-    }
-
-    #top-section p{
-        margin-top: 90px;
-    }
-
-    #mid-section{
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 20px;
-        padding-left: 0px;
-    }
-
-    #mid-section p{
-        padding-bottom: 0px;
-    }
-
-    #bot-section{
-        padding-right: 0px;
-    }
-
-    #bot-section p{
-        padding-top: 60px
-    }
-
-    .container h1{
-        font-size: 4.75rem;
-    }
-
-}
-
-@media only screen and (max-width: 815px) {
-    #top-section{
-        display: block;
-        justify-content: center;
-        margin-top: 50px;
-    }
-    
-    #top-section img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #top-section p{
-        padding: 20px 20px 20px 0px;
-        margin: auto;
-    }
-
-    #mid-section{
-        display: block;
-        justify-content: center;
-        margin-top: 0px;
-    }
-    
-    #mid-section img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 400px;
-    }
-
-    #mid-section p{
-        padding: 20px 20px 20px 0px;
-        margin: auto;
-        line-height: 2.25rem;
-        font-size: 1.5rem;
-    }
-
-    #bot-section{
-        display: block;
-        justify-content: center;
-        margin-top: 50px;
-    }
-    
-    #bot-section img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        height: 400px;
-    }
-
-    #bot-section p{
-        padding: 20px 20px 20px 0px;
-        margin: auto;
-        line-height: 2.25rem;
-        font-size: 1.5rem;
-    }
-
-    #resume-line{
-        font-size: 1.25rem;
-    }
-}
-
-/*for Surface Duo - horizontal*/
-@media only screen and (max-width: 725px){
-    #top-section p{
-        padding-right: 0px;
-    }
-
-    #mid-section p{
-        padding-right: 0px;
-    }
-
-    #bot-section{
-        padding-right: 0px;
-    }
-
-    #bot-section img{
-        margin-top: 150px;
-    }
-
-    #bot-section p{
-        padding-right: 0px;
-        margin-top: -555px;
-        margin-bottom: 320px
-    }
-
-    #resume-line{
-        padding-left: 0px;
-    }
-}
-
-/*for iphone SE - horizontal*/
-@media only screen and (max-width: 670px){
-    .container h1{
-        font-size: 4rem;
-        line-height: 6rem;
-    }
-
-    .skill{
-        font-size: 1.75rem;
-    }
-
     .job h3{
-        font-size: 2.25rem;
-    }
-
-    .job p{
-        font-size: 1.5rem;
-    }
-
-    .edu-table{
-        padding-top: 0px;
-    }
-
-    .school h3{
-        font-size: 2.25rem;
-    }
-
-    .school p{
-        font-size: 1.5rem;
-    }
-
-    .footer{
-        margin-top: 100px;
-        font-size: 1.25rem;
-        line-height: 3rem;
-    }
-}
-
-@media only screen and (max-width: 640px) {
-    .navbar li{
-        font-size: 1.75rem;
-    }
-
-    #mid-section{
-        padding-left: 0px;
-    }
-
-    #mid-section p{
-        padding-left: 20px;
-    }
-
-    #mid-section img{
-        height: auto;
-        width: 500px;
-    }
-
-    #bot-section img{
-        height: auto;
-        width: 500px;
-    }
-
-    
-
-    
-}
-
-/*for SurfaceDuo*/
-@media only screen and (max-width: 540px) {
-    .navbar {
-        padding: 0px;
-    }
-
-    .navbar li{
-        padding: 0px 17px;
-        font-size: 1.75rem;
-        line-height: 2rem;
-    }
-
-    #top-section{
-        padding-right: 0px;
-    }
-
-    #top-section img{
-        margin-top: -25px;
-        margin-left: 100px;
-    }
-
-    #top-section p{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 25px;
-        padding:0px;
-    }
-
-    #mid-section img{
-        margin-left: 11px;
-    }
-
-    #bot-section img{
-        margin-top: 250px;
-        margin-left: 11px;
-    }
-
-    #mid-section p{
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 25px;
-        padding:0px;
-    }
-
-    #bot-section{
-        padding-right: 0px;
-    }
-
-    #bot-section p{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: -550px;
-        margin-bottom: 320px;
-        padding:0px;
-    }
-
-    .job h3{
-        font-size: 2rem;
-    }
-
-    .job p{
-        font-size: 1.25rem;
-    }
-
-    .edu-table{
-        padding-top: 0px;
-    }
-
-    .school h3{
-        font-size: 2rem;
-    }
-
-    .school p{
-        font-size: 1.25rem;
-    }
-
-}
-
-/*
-
-@media only screen and (max-width: 515px) {
-    #mid-section img{
-        width: 400px;
-    }
-
-    #bot-section img{
-        width: 400px;
-    }
-}
-
-@media only screen and (max-width: 485px) {
-    .navbar li{
-        font-size: 1.25rem;
-    }
-
-    .container h1{
-        font-size: 3rem;
-        line-height: 5rem;
-    }
-
-    .skill{
-        font-size: 1.5rem;
-    }
-
-    .job h3{
-        font-size: 2rem;
-    }
-
-    .job p{
-        font-size: 1.25rem;
-    }
-
-    .school h3{
-        font-size: 2rem;
-    }
-
-    .school p{
-        font-size: 1.25rem;
-    }
-
-    .footer{
-        font-size: 1rem;
-        line-height: 2.5rem;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    .navbar li{
-        padding: 15px;
-    }
-
-    #mid-section img{
-        width: 350px;
-    }
-
-    #bot-section img{
-        width: 350px;
-    }
-
-    .skill{
-        font-size: 1.4rem;
-    }
-
-    .footer{
-        font-size: 0.8rem;
-        line-height:2.5rem;
-    }
-}
-
-*/
-
-/*for iphone XR and Galaxy S20 ULtra/A51*/
-@media only screen and (max-width: 415px) {
-    #top-section img{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #mid-section img{
-        width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    #bot-section p{
-        margin-top: -497px;
-        margin-bottom: 240px;
-    }
-
-    #bot-section img{
-        width: 400px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .container h1{
-        font-size: 3rem;
-        line-height: 5rem;
-    }
-
-    .skills-table{
-        margin-left: 35px;
-    }
-
-    .skill{
-        font-size: 1.5rem;
-    }
-
-    #resume-line{
-        padding-left: 0px;
-    }
-    
-    .footer{
-        font-size: 0.8rem;
-        line-height:2.5rem;
-        margin-top: 80px;
-    }
-}
-
-/*for iphone 12 pro and Pixel 5*/
-@media only screen and (max-width: 395px){
-    .navbar li{
-        padding: 0px 12px;
-        font-size: 1.7rem;
-    }
-
-    #mid-section img{
-        width: 350px;
-    }
-
-    #top-section p{
-        line-height: 2rem;
-        font-size: 1.25rem;
-    }
-
-    #mid-section p{
-        line-height: 2rem;
-        font-size: 1.25rem;
-    }
-
-    #bot-section p{
-        line-height: 2rem;
-        font-size: 1.25rem;
-        margin-top: -385px;
-    }
-
-    #bot-section img{
-        width: 350px;
-        margin-top: 150px;
-    }
-
-    .job h3{
-        font-size: 1.75rem;
-    }
-
-    .job p{
-        font-size: 1rem;
-    }
-
-    .school h3{
-        font-size: 1.75rem;
-    }
-
-    .school p{
-        font-size: 1rem;
-    }
-
-    .container h1{
-        margin-top: 50px;
-        margin-bottom: 20px;
-    }
-}
-
-/*for iphone SE*/
-@media only screen and (max-width: 380px){
-   
-
-    #top-section p{
-        margin-top: 20px;
-    }
-    .skill{
-        font-size: 1.25rem;
-    }
-
-    .skills-table{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .container h1{
         font-size: 2.5rem;
-        line-height: 4rem;
     }
 
-    #resume-line{
-        font-size: 1.15rem;
+    .job p{
+        font-size: 1.5rem;
+    }
+
+    .school h3{
+        font-size: 2.5rem;
+    }
+
+    .school p{
+        font-size: 1.5rem;
+    }
+
+    .footer{
+        font-size: 1rem;
+        margin-top: 150px;
     }
 }
 
-/*for Galaxy S8+*/
+/*for iPhone SE - horizontal */
+@media only screen and (max-width: 690px){
+    .navbar li{
+        font-size: 1.75rem;
+        line-height: 2rem;
+        padding: 0px 38px;
+    }
+
+    #top-section{
+        margin-top: 20px;
+        padding: 0px;
+        padding-bottom: 20px;
+    }
+
+    #top-section img{
+        height: 429px;
+        padding-left: 0px;
+    }
+
+    #top-section p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #mid-section img{
+        width: 321.75px;
+    }
+
+    #mid-section p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #bot-section img{
+        width: 321.75px;
+    }
+
+    #bot-section p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .container h1{
+        font-size: 3.25rem;
+        line-height: 4.75rem;
+        margin-top: 50px;
+    }
+
+    .job h3{
+        font-size: 2.25rem;
+    }
+
+    .job p{
+        font-size: 1.25rem;
+    }
+
+    .school h3{
+        font-size: 2.25rem;
+    }
+
+    .school p{
+        font-size: 1.25rem;
+    }
+
+    .footer{
+        font-size: 0.9rem;
+    }
+}
+
+/*for Surface Duo - vertical*/
+@media only screen and (max-width:550px){
+    .navbar li{
+        padding: 0px 22px;
+        font-size: 1.6rem;
+    }
+    
+    #top-section{
+        display: block;
+        justify-content: center;
+    }
+    
+    #top-section img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 572px;
+    }
+
+    #top-section p{
+        padding-left: 0px;
+    }
+
+    #mid-section{
+        display: block;
+        justify-content: center;
+    }
+    
+    #mid-section img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -417px;
+    }
+
+    #mid-section p{
+        padding-right: 0px;
+        margin-top: 215px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    #bot-section{
+        display: block;
+        justify-content: center;
+    }
+    
+    #bot-section img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 185px;
+    }
+
+    #bot-section p{
+        padding-left: 0px;
+        margin-top: 15px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    #resume-line{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .container h1{
+        margin-bottom: 35px;
+    }
+
+    .job h3{
+        font-size: 2.25rem;
+    }
+
+    .job p{
+        font-size: 1.25rem;
+    }
+
+    .school h3{
+        font-size: 2.25rem;
+    }
+
+    .school p{
+        font-size: 1.25rem;
+    }
+    
+    .footer{
+        font-size: 0.75rem;
+        line-height: 2.5rem;
+        margin-top: 145px;
+    }
+}
+
+@media only screen and (max-width: 515px){
+    #mid-section img{
+        margin-top: -445px;
+    }
+
+    #bot-section img{
+        margin-top: 215px;
+    }
+}
+
+/*for iPhone XR - vertical*/
+@media only screen and (max-width: 415px){
+    .navbar li{
+        padding: 0px 20px;
+        font-size: 1.5rem;
+    }
+
+    #mid-section img{
+        width: 321.75px;
+        margin-top: -515px;
+    }
+
+    #bot-section img{
+        width: 321.75px;
+        margin-top: 280px;
+    }
+
+    .skills-table{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .footer{
+        line-height: 2rem;
+    }
+}
+
+/*for iPhone 12 Pro - vertical*/
+@media only screen and (max-width: 390px){
+    .navbar li{
+        font-size: 1.25rem;
+        padding: 0px 22px;
+    }
+
+    #mid-section p{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    #mid-section img{
+        margin-top: -420px;
+    }
+
+    #bot-section p{
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+    }
+
+    #bot-section img{
+        margin-top: 190px;
+    }
+
+    .container h1{
+        font-size: 3rem;
+        line-height: 4.5rem;
+    }
+}
+
 @media only screen and (max-width: 360px){
     .navbar li{
-        padding: 0px 9.5px;
-        font-size: 1.7rem;
-    }
-    
-    #mid-section img{
-        width: 330px;
-        padding-left: 0px;
-    }
-
-    #bot-section p{
-        margin-top: -398px;
-        margin-bottom: 200px;
-    }
-
-    #bot-section img{
-        width: 330px;
-        padding-left: 0px;
-        margin-top: 170px;
+        font-size: 1.15rem;
+        padding: 0px 20px;
     }
 }
 
-/*for Galaxy Fold*/
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 325px){
     .navbar li{
-        padding: 0px 7px;
-        font-size: 1.25rem;
+        font-size: 1rem;
+        padding: 0px 17px;
+    }
+}
+
+/*for Galaxy Fold - vertical*/
+@media only screen and (max-width: 330px){
+    .navbar li{
+        padding: 0px 15px;
     }
 
     #top-section img{
         height: auto;
-        width:250px;
+        width: 250px;
     }
 
     #mid-section img{
-        height: auto;
-        width:250px;
-        margin-left: 7px;
+        width: 250px;
+        margin-top: -472px;
+    }
+
+    #mid-section p{
+        margin-top: 200px;
     }
 
     #bot-section img{
-        height: auto;
-        width:250px;
-        margin-top: 200px;
-        margin-left: 7px;
-    }
-
-    #bot-section p{
-        line-height: 2rem;
-        font-size: 1.25rem;
-        margin-top: -375px;
-        margin-bottom: 130px;
+        width: 250px;
+        margin-top: 275px;
     }
 
     .skills-table{
         margin-left: 10px;
-    }
-
-    #resume-line{
-        padding-left: 0px;
-        font-size: 1.25rem;
+        margin-right: auto;
     }
 }
+

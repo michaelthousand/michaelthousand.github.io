@@ -1,4 +1,4 @@
-/*updated for version 2.0.2*/
+/*updated for version 2.1.0*/
 
 html{
     font-size: 16px;
@@ -18,7 +18,7 @@ body{
     font-family: quicksand, sans-serif;
     font-size: 2.5rem;
     display: inline;
-    padding: 25px;
+    padding: 50px;
 }
 
 .navbar a{
@@ -39,7 +39,7 @@ body{
     background-color: #0000009f;
     line-height: 4rem;
     margin-bottom: 0px;
-    margin-top: 270px;
+    margin-top: 275px;
     color: #fff;
     font-family: montserrat, sans-serif;
     font-size: 1.5rem;
@@ -122,24 +122,18 @@ body{
     text-shadow: 1.5px 1.5px #0000009f;
 }
 
-
-/*
-@media only screen and (max-width: 2375px) {
-    #title{
-        margin-top: 75px;
-    }
-    
+/*begin responsive design*/
+@media only screen and (max-width: 2350px) and (min-width: 1370px){
     #title h1{
         font-size: 6rem;
     }
-    
-    #title h2{
-        font-size: 3rem;
+
+    #title h3{
+        font-size: 3.25rem;
     }
 
     .button{
-        margin-top: 700px;
-        margin-right: 200px;
+        margin-top: 580px;
     }
 
     .footer{
@@ -147,9 +141,45 @@ body{
     }
 }
 
-@media only screen and (max-width: 2025px) {
+@media only screen and (max-width: 2000px) and (min-width: 1370px){
     #title h1{
-        font-size: 5rem;
+        font-size: 5.25rem;
+    }
+
+    #title h2{
+        font-size: 3rem;
+    }
+
+    .button{
+        margin-right: 140px;
+    }
+
+    .footer{
+        margin-top: 300px;
+    }
+}
+
+@media only screen and (max-width: 1725px) and (min-width: 1370px){
+    #title h1{
+        font-size: 4.75rem;
+    }
+
+    #title h2{
+        font-size: 2.75rem;
+    }
+
+    .button{
+        margin-right: 50px;
+    }
+
+    .footer{
+        margin-top: 335px;
+    }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1370px){
+    #title h1{
+        font-size: 4.5rem;
     }
 
     #title h2{
@@ -157,104 +187,111 @@ body{
     }
 
     .button{
-        margin-top: 800px;
-        margin-right: 150px;
+        margin-top: 615px;
     }
 
     .footer{
-        margin-top: 175px;
+        margin-top: 310px;
     }
 }
 
-@media only screen and (max-width: 1550px) {
-    #title{
-        margin-top: -10px;
+
+/*for Surface Pro 7 - horizontal */
+@media only screen and (max-width: 1370px){
+    .navbar{
+        padding-left: 0px;
     }
-    
+
+    .navbar li{
+        font-size: 3rem;
+    }
+
+    #title{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    #title h1{
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 5.5rem;
+    }
+
+    #title h2{
+        margin-top: 0px;
+        font-size: 2.75rem;
+    }
+
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 850px;
+    }
+
+    .footer{
+        margin-top: 125px;
+    }
+}
+
+/*for iPad Air - horizontal*/
+@media only screen and (max-width: 1180px) {
+    .navbar li{
+        font-size: 2.5rem;
+        padding: 50px;
+    }
+
+    .button{
+        margin-top: 857px;
+    }
+
+    .footer{
+        margin-top: 120px;
+    }
+}
+
+/*for iPad Mini - horizontal*/
+@media only screen and (max-width: 1024px){
+    .button{
+        margin-top: 865px;
+    }
+
+    .footer{
+        font-size: 1.25rem;
+        margin-top: 115px;
+    }
+}
+
+/*for Pixel 5 - horizontal*/
+@media only screen and (max-width: 855px){
+    .navbar li{
+        font-size: 2rem;
+        line-height: 2.5rem;
+        padding: 0px 50px;
+    }
+
     #title h1{
         font-size: 4.5rem;
     }
 
     #title h2{
-        font-size: 2rem;
-    }
-
-    .button{
-        margin-top: 875px;
-        margin-right: 125px;
-    }
-}
-
-@media only screen and (max-width: 1100px) {
-    #title{
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: -15px;
-    }
-
-    .button{
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media only screen and (max-width: 735px) {
-    #title h1{
-        font-size: 4rem;
+        font-size: 2.25rem;
     }
 
     .button{
         margin-top: 900px;
     }
-}
-
-@media only screen and (max-width: 640px) {
-    .navbar li{
-        font-size: 1.75rem;
-    }
 
     .footer{
-        margin-top: 100px;
-        font-size: 1.25rem;
-        line-height: 3rem;
-    }
-
-    #title h1{
-        font-size: 3.5rem;
-    }
-
-    #title h2{
-        font-size: 1.75rem;
-    }
-
-    .button{
-        margin-top: 950px;
+        font-size: 1.15rem;
+        margin-top: 115px;
     }
 }
 
-*/
-
-/*for iphone XR and Galaxy S20 ULtra/A51 - horizontal*/
-@media only screen and (max-width: 920px){
-    .navbar {
-        padding: 0px;
-    }
-
-    .navbar li{
-        padding: 0px 30px;
-        font-size: 2rem;
-        line-height: 2.25rem;
-    }
-
-    #title{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 15px;
-    }
-
+/*for Galaxy S8+ - horizontal */
+@media only screen and (max-width: 740px){
     #title h1{
-        font-size: 4rem;
-        margin-top: 0px;
+        font-size: 4.25rem;
     }
 
     #title h2{
@@ -262,198 +299,163 @@ body{
     }
 
     .button{
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 900px;
+        margin-top: 915px;
     }
 
     .footer{
-        margin-top: 200px;
+        font-size: 1rem;
+        margin-top: 110px;
     }
-
 }
 
-
-/*for Surface Duo - horizontal*/
-@media only screen and (max-width: 725px) {
-    .jumbotron{
-        height: 1200px;
+/*for iPhone SE - horizontal */
+@media only screen and (max-width: 670px){
+    .navbar li{
+        font-size: 1.75rem;
+        line-height: 2rem;
+        padding: 0px 38px;
     }
 
-    .button{
-        margin-top: 650px;
+    #title h1{
+        font-size: 3.8rem;
+    }
+
+    #title h2{
+        font-size: 1.9rem;
     }
 
     .footer{
-        margin-top: 131px;
-        font-size: 1.25rem;
-        line-height: 1.5rem;
-        padding-top: 15px;
-        padding-bottom: 3px;
+        font-size: 0.9rem;
+        margin-top: 120px;
     }
 }
 
-/*for iphone SE - horizontal*/
-@media only screen and (max-width: 670px) {
-    .navbar {
-        padding: 0px;
+/*for Surface Duo - vertical*/
+@media only screen and (max-width:540px){
+    .navbar{
         margin-bottom: 0px;
     }
 
     .navbar li{
-        padding: 0px 17px;
-        font-size: 1.75rem;
-        line-height: 2rem;
+        padding: 0px 27px;
     }
 
-
-    #title h1{
-        padding: 20px 25px 0px 25px;
-        font-size: 3.5rem;
-    }
-
-    #title h2{
-        padding: 0px 0px 20px 0px;
-        font-size: 1.75rem;
-    }
-
-    .button{
-        margin-top: 675px;
-    }
-
-    .footer{
-        margin-top: 146px;
-    }
-}
-
-/*for Surface Duo*/
-@media only screen and (max-width: 540px) {
     #title{
-        border-radius: 0px;
-    }
-
-    .button{
-        margin-top: 700px;
-    }
-
-    .footer{
-        margin-top: 124px;
-    }
-
-}
-
-/*for iphone XR and Galaxy S20 ULtra/A51*/
-@media only screen and (max-width: 415px) {
-    #title{
-        margin-top: 500px;
-        border-radius: 0px;
+        margin-top: 30px;
     }
 
     #title h1{
-        line-height: 3rem;
+        font-size: 3rem;
     }
 
     #title h2{
-        line-height: 1.55rem;
         font-size: 1.5rem;
     }
 
     .button{
-        margin-top: 40px;
-        font-size: 2rem;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        margin-top: 925px;
+    }
+
+    .footer{
+        font-size: 0.75rem;
+        line-height: 2.5rem;
+        margin-top: 145px;
+    }
+}
+
+@media only screen and (max-width: 470px){
+    .navbar li{
+        padding: 0px 22px;
+        font-size: 1.6rem;
+    }
+}
+
+/*for iPhone XR - vertical*/
+@media only screen and (max-width: 415px){
+    .navbar li{
+        padding: 0px 20px;
+        font-size: 1.5rem;
+    }
+
+    #title{
+        border-radius: 0px;
+    }
+
+    .button{
+        margin-top: 865px;
+        font-size: 2.25rem;
     }
 
     .button a{
         text-shadow: 1.25px 1.25px #0000009f;
     }
 
-    .jumbotron{
-        height: 1000px;
-    }
-
     .footer{
-        font-size: 0.8rem;
-        line-height:2.5rem;
-        margin-top: 50px;
+        line-height: 2rem;
     }
 }
 
-/*for iphone 12 pro and Pixel 5*/
-@media only screen and (max-width: 395px){
-    .navbar li{
-        padding: 0px 15px;
-        font-size: 1.7rem;
-    }
-}
-
-/*for iphone SE*/
+/*for iPhone SE - vertical*/
 @media only screen and (max-width: 380px){
     .navbar li{
-        padding: 0px 12px;
-        font-size: 1.7rem;
+        font-size: 1.25rem;
+        padding: 0px 22px;
     }
 
     .jumbotron{
-        height: 825px
+        height: 825px;
     }
 
     #title{
         margin-top: 400px;
     }
 
+    .button{
+        margin-top: 20px;
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+
+    .button a{
+        text-shadow: 0.5px 0.5px #0000009f;
+    }
+
+    .footer{
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .navbar li{
+        font-size: 1.15rem;
+        padding: 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 325px){
+    .navbar li{
+        font-size: 1rem;
+        padding: 0px 17px;
+    }
+}
+
+/*for Galaxy Fold - vertical*/
+@media only screen and (max-width: 280px){
+    .navbar li{
+        padding: 0px 15px;
+    }
+
     #title h1{
         font-size: 2.5rem;
-        line-height: 2.5rem;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     #title h2{
-        line-height: 1.25rem;
-        font-size: 1.25rem;
-    }
-
-    .button{
-        font-size: 1.65rem;
+        font-size: 1rem;
     }
 
     .footer{
-        margin-top: 100px;
-    }
-}
-
-/*for Galaxy S8+*/
-@media only screen and (max-width: 360px){
-    .navbar li{
-        padding: 0px 10px;
-        font-size: 1.7rem;
-    }
-
-    .jumbotron{
-        height: 750px
-    }
-
-    #title{
-        margin-top: 350px;
-    }
-
-    .footer{
-        margin-top: 75px;
-    }
-}
-
-/*for Galaxy Fold*/
-@media only screen and (max-width: 300px){
-    .navbar li{
-        padding: 0px 7px;
-        font-size: 1.25rem;
-    }
-
-   .button{
-    font-size: 1.5rem;
-   }
-
-    .footer{
-        margin-top: 77px;
+        margin-top: 40px;
     }
 }
