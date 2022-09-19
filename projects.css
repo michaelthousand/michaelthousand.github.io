@@ -1,3 +1,5 @@
+/*updated for version 2.0.2*/
+
 html{
     font-size: 16px;
 }
@@ -189,6 +191,14 @@ body{
         margin-top: 100px;
     }
 }
+
+/*for iphone XR and Galaxy S20 ULtra/A51 - horizontal*/
+@media only screen and (max-width: 920px){
+    #comp_build_text ul{
+        padding-left: 0px;
+    }
+
+}
 /*
 @media only screen and (max-width: 640px) {
     .navbar li{
@@ -255,9 +265,6 @@ body{
         line-height: 2rem;
     }
 
-    #comp_build_text ul{
-        padding-left: 0px;
-    }
 
     #comp_build_text li{
         font-size: 1.5rem;

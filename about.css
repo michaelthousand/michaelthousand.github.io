@@ -1,3 +1,5 @@
+/*updated for version 2.0.2*/
+
 html{
     font-size: 16px;
 }
@@ -532,17 +534,22 @@ body{
     }
 }
 
-/*for Surface Pro 7*/
-@media only screen and (max-width: 915px){
+/*for Surface Pro 7 & iphone XR and Galaxy S20 ULtra/A51 - horizontal*/
+@media only screen and (max-width: 920px){
     #top-section{
         margin-top: 50px;
+        padding-right: 0px;
+    }
+
+    #top-section p{
+        margin-top: 90px;
     }
 
     #mid-section{
         padding-top: 0px;
         padding-right: 0px;
         padding-bottom: 20px;
-        padding-left: 20px;
+        padding-left: 0px;
     }
 
     #mid-section p{
@@ -550,11 +557,15 @@ body{
     }
 
     #bot-section{
-        padding-right: 20px;
+        padding-right: 0px;
     }
 
     #bot-section p{
         padding-top: 60px
+    }
+
+    .container h1{
+        font-size: 4.75rem;
     }
 
 }
@@ -622,6 +633,73 @@ body{
     }
 }
 
+/*for Surface Duo - horizontal*/
+@media only screen and (max-width: 725px){
+    #top-section p{
+        padding-right: 0px;
+    }
+
+    #mid-section p{
+        padding-right: 0px;
+    }
+
+    #bot-section{
+        padding-right: 0px;
+    }
+
+    #bot-section img{
+        margin-top: 150px;
+    }
+
+    #bot-section p{
+        padding-right: 0px;
+        margin-top: -555px;
+        margin-bottom: 320px
+    }
+
+    #resume-line{
+        padding-left: 0px;
+    }
+}
+
+/*for iphone SE - horizontal*/
+@media only screen and (max-width: 670px){
+    .container h1{
+        font-size: 4rem;
+        line-height: 6rem;
+    }
+
+    .skill{
+        font-size: 1.75rem;
+    }
+
+    .job h3{
+        font-size: 2.25rem;
+    }
+
+    .job p{
+        font-size: 1.5rem;
+    }
+
+    .edu-table{
+        padding-top: 0px;
+    }
+
+    .school h3{
+        font-size: 2.25rem;
+    }
+
+    .school p{
+        font-size: 1.5rem;
+    }
+
+    .footer{
+        margin-top: 100px;
+        font-size: 1.25rem;
+        line-height: 3rem;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     .navbar li{
         font-size: 1.75rem;
@@ -645,16 +723,9 @@ body{
         width: 500px;
     }
 
-    .footer{
-        margin-top: 100px;
-        font-size: 1.25rem;
-        line-height: 3rem;
-    }
+    
 
-    .container h1{
-        font-size: 4rem;
-        line-height: 6rem;
-    }
+    
 }
 
 /*for SurfaceDuo*/

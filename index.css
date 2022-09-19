@@ -1,4 +1,4 @@
-/*updated for version 2.0*/
+/*updated for version 2.0.2*/
 
 html{
     font-size: 16px;
@@ -122,6 +122,8 @@ body{
     text-shadow: 1.5px 1.5px #0000009f;
 }
 
+
+/*
 @media only screen and (max-width: 2375px) {
     #title{
         margin-top: 75px;
@@ -230,13 +232,72 @@ body{
     }
 }
 
+*/
 
-
-
-/*for Surface Duo*/
-@media only screen and (max-width: 540px) {
+/*for iphone XR and Galaxy S20 ULtra/A51 - horizontal*/
+@media only screen and (max-width: 920px){
     .navbar {
         padding: 0px;
+    }
+
+    .navbar li{
+        padding: 0px 30px;
+        font-size: 2rem;
+        line-height: 2.25rem;
+    }
+
+    #title{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+    }
+
+    #title h1{
+        font-size: 4rem;
+        margin-top: 0px;
+    }
+
+    #title h2{
+        font-size: 2rem;
+    }
+
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 900px;
+    }
+
+    .footer{
+        margin-top: 200px;
+    }
+
+}
+
+
+/*for Surface Duo - horizontal*/
+@media only screen and (max-width: 725px) {
+    .jumbotron{
+        height: 1200px;
+    }
+
+    .button{
+        margin-top: 650px;
+    }
+
+    .footer{
+        margin-top: 131px;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        padding-top: 15px;
+        padding-bottom: 3px;
+    }
+}
+
+/*for iphone SE - horizontal*/
+@media only screen and (max-width: 670px) {
+    .navbar {
+        padding: 0px;
+        margin-bottom: 0px;
     }
 
     .navbar li{
@@ -245,21 +306,30 @@ body{
         line-height: 2rem;
     }
 
-    .jumbotron{
-        height: 1200px;
-    }
-
-    #title{
-        border-radius: 0px;
-        margin-top: -25px;
-    }
 
     #title h1{
         padding: 20px 25px 0px 25px;
+        font-size: 3.5rem;
     }
 
     #title h2{
         padding: 0px 0px 20px 0px;
+        font-size: 1.75rem;
+    }
+
+    .button{
+        margin-top: 675px;
+    }
+
+    .footer{
+        margin-top: 146px;
+    }
+}
+
+/*for Surface Duo*/
+@media only screen and (max-width: 540px) {
+    #title{
+        border-radius: 0px;
     }
 
     .button{
