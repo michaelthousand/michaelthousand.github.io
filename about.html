@@ -8,7 +8,8 @@
             <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&family=Raleway&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="./about.css">  
             <meta content="width=device-width, initial-scale=1" name="viewport" />
-            <meta content="format-detection" content="telephone=no">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         </head>
 
         <header>
@@ -22,31 +23,30 @@
         </header>
 
         <main>
+     
             <div id="top-section">
-                <img src="./wedding_solo.jpg" alt="Michael">
-                <p>I am currently a healthcare supervisor working on a transition to tech. I am studying software development
-                    and programming at the University of California-Berkeley.
-                    <br>
-                    <br>
-                    In addition, I have a master's degree in philosophy and formerly taught full-time at the university
-                    level.
-                </p>
-            </div>
-
-            <div id="mid-section">
-                <p>I owe my love of technology to my parents who owned their own software sales company when I was growing up.
-                    <br>
-                    <br>
-                    With their help, I took apart my first computer at 7 years old.
-                </p>
-                <img src="./wedding_parents.jpg" alt="Michael and his parents">
-            </div>
-
-            <div id="bot-section">
-                <img src="./wedding_Ashley.jpg" alt="Michael with his wife Ashley">
-                <p>My wife, Ashley, and I spend most of our free time playing video games together, closely monitored by our
-                    two pugs (Tuukka & Plato).
-                </p>
+                <div id="slideshow">
+                    <span class="material-symbols-outlined" id="backArrowButton">
+                        chevron_left
+                    </span>
+                    <span class="material-symbols-outlined" id="backArrowButtonTwo">
+                        chevron_left
+                    </span>
+                    <img id="slideshowImage" src="./wedding_solo.jpg" alt="Michael">
+                    <p id="slideshowText">I am currently a healthcare supervisor working on a transition to tech. I am studying software development
+                        and programming at the University of California-Berkeley.
+                        <br>
+                        <br>
+                        In addition, I have a master's degree in philosophy and formerly taught full-time at the university
+                        level.
+                    </p>
+                    <span class="material-symbols-outlined" id="arrowButton">
+                        chevron_right
+                    </span>
+                    <span class="material-symbols-outlined" id="arrowButtonTwo">
+                        chevron_right
+                    </span>
+                </div>
             </div>
  
             <div class="container">
@@ -154,6 +154,6 @@
                 <p>Created and designed by Michael Thousand - &copy; 2022. Photos by Manor Studios 1848.</p>
             </div> 
         </footer>
-
+        <script src="./about.js"></script>
     </body>
 </html>

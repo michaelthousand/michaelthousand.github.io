@@ -54,3 +54,18 @@ var TxtRotate = function(el, toRotate, period) {
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
   };
+
+
+//sends an alert when the page loads
+  //alert('Hello World!');
+  
+
+
+//opens resume in new tab regardless of where in the button the user clicks
+let resumeButton = document.getElementById('button');
+
+function newTab() {
+    window.open(href="./Michael_Thousand_Resume.pdf", "_blank");
+};
+
+resumeButton.addEventListener('click', newTab);
