@@ -21,7 +21,7 @@ var TxtRotate = function(el, toRotate, period) {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
   
     var that = this;
-    var delta = 300 - Math.random() * 100;
+    var delta = 180 - Math.random() * 100; //180 sets the speed of the typing
   
     if (this.isDeleting) { delta /= 2; }
   
@@ -69,3 +69,4 @@ function newTab() {
 };
 
 resumeButton.addEventListener('click', newTab);
+
