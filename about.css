@@ -1,5 +1,10 @@
 /*updated for version 2.1.0*/
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+
+
 html{
     font-size: 16px;
 }
@@ -165,6 +170,7 @@ body{
     width: 82.5%;
     position: relative;
     margin: auto;
+    margin-top: 50px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     text-align: center;
@@ -247,6 +253,75 @@ body{
     font-size: 1.5rem;
     color:#fff;
 }
+
+.button {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #f9fcfbec;
+    color: #AD9600;
+    font-family: quicksand, sans-serif;
+    font-weight: bold;
+  }
+
+  .button span,
+  .button div,
+  .button i {
+    transition: width 750ms ease-in 200ms, left 500ms ease-out 450ms, font-size 950ms ease;
+  }
+  
+  .button span,
+  .button .icon {
+     position: absolute;
+     display: block;
+    height: 100%;
+    text-align: center;
+   }
+
+  
+  .button span {
+    width: 72%;
+    left: 0px;
+    line-height: inherit;
+    font-size: 25px;
+  }
+  
+  .button .icon {
+    right: 0;
+    width: 28%;
+  }
+  
+  .button .icon .fa {
+    font-size: 30px;
+    vertical-align: middle;
+  }
+  
+  .icon {
+    width: 200px;
+    background-color: #aaacabb2;
+  }
+  
+  .button:hover span {
+    left: -72%;
+  }
+  
+  .button:hover .icon {
+    width: 100%;
+  }
+  
+  .button:hover .icon .fa {
+    font-size: 45px;
+  }
 
 /*begin responsive design*/
 @media only screen and (max-width: 2100px){

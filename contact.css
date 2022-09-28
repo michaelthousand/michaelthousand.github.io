@@ -88,6 +88,54 @@ body{
     font-style: italic;
 }
 
+#submissionForm{
+    text-align: center;
+    margin: 50px;
+    padding: 20px 50px 50px 50px;
+    border: 5px solid rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+}
+
+#submissionForm h1{
+    font-family: quicksand, sans-serif;
+    font-size: 4rem;
+    color: #fff;
+}
+
+#submissionForm p{
+    font-family: montserrat, sans-serif;
+    font-size: 2rem;
+    color: #fff;
+}
+
+#submissionForm label, span{
+    font-family: montserrat, sans-serif;
+    font-size: 1.5rem;
+    color:#fff
+}
+
+#submissionForm input, textarea, option, select{
+    font-family: montserrat, sans-serif;
+    font-size: 1.25rem;
+}
+
+#submissionForm label{
+    line-height: 2.5rem;
+}
+
+#submissionForm input[type="text"], select{
+    margin-left: 10px;
+}
+
+#submissionForm input[type="submit"]{
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.radioButtons{
+    margin-left: 50px;
+}
+
 /*for SurfaceDuo*/
 @media only screen and (max-width: 600px){
     .navbar {
