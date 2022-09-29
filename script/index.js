@@ -65,8 +65,10 @@ var TxtRotate = function(el, toRotate, period) {
 let resumeButton = document.getElementById('button');
 
 function newTab() {
-    window.open(href="./Michael_Thousand_Resume.pdf", "_blank");
+    window.open(href="../content/Michael_Thousand_Resume.pdf", "_blank");
 };
 
 resumeButton.addEventListener('click', newTab);
+
+
 
