@@ -3,6 +3,10 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 
 html{
@@ -11,20 +15,23 @@ html{
 
 body{
     background-image: linear-gradient(#000, #000000b6);
-    background-repeat: no-repeat;
 }
 
 .navbar{
     text-align: center;
     background-color: #0000009f;
-    line-height: 4rem;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 400ms forwards;
+    padding: 0px;
 }
 
 .navbar li{
     font-family: quicksand, sans-serif;
     font-size: 2.5rem;
+    line-height: 4rem;
     display: inline;
-    padding: 50px;
+    padding: 0px 50px;
+    margin: auto;
 }
 
 #currentPage a{
@@ -49,13 +56,103 @@ body{
     background-color: #0000009f;
     line-height: 4rem;
     margin-bottom: 0px;
-    margin-top: 425px;
     color: #fff;
     font-family: montserrat, sans-serif;
     font-size: 1.5rem;
+    opacity: 0;
+    animation: fadeIn 2s ease-in 400ms forwards;
 }
 
+@media only screen and (max-width: 1150px){
+    .navbar li{
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 0px 40px;
+    }
 
+    .footer{
+        font-size: 1.25rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar li{
+        padding: 0px 30px
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 715px){
+    .navbar li{
+        padding: 0px 20px;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .footer{
+        font-size: 0.8rem;
+        line-height: 2.55rem;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .navbar li{
+        padding: 0px 15px;
+        font-size: 1.25rem;
+    }
+
+    .footer{
+        font-size: 0.7rem;
+        line-height: 2.45rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .footer{
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .navbar li{ 
+        font-size: 1rem;
+    }
+
+    .footer{
+        font-size: 0.55rem;
+        line-height: 2.25rem;
+    }
+}
+
+@media only screen and (max-width: 395px){
+    .navbar li{
+        padding: 0px 12px;
+    }
+
+    .footer{
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 355px){
+    .navbar li{
+        font-size: 0.75rem;
+    }
+
+    .footer{
+        font-size: 0.45rem;
+    }
+}
+
+@media only screen and (max-width: 325px){
+    .footer{
+        font-size: 0.4rem;
+    }
+}
 /*begin unique for this page*/
 
 #slideshow{
@@ -63,6 +160,8 @@ body{
     margin: 25px;
     padding: 25px;
     display: inline-flex;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 1200ms forwards;
 }
 
 #slideshow img{
@@ -70,6 +169,8 @@ body{
     max-width: 1014px;
     height: auto;
     width: auto;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 1700ms forwards;
 }
 
 #slideshow p{
@@ -82,6 +183,8 @@ body{
     margin-bottom: auto;
     margin-left: 20px;
     margin-right: 20px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 2100ms forwards;
 }
 
 #arrowButton{
@@ -89,6 +192,8 @@ body{
     font-size: 7rem;
     margin-top: auto;
     margin-bottom: auto;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 2700ms forwards;
 }
 
 #arrowButton:hover{
@@ -146,6 +251,8 @@ body{
     text-shadow: 5px 5px #000;
     background-color: #0000009f;
     background-size: contain;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 1200ms forwards;
 }
 
 .skills-table{
@@ -167,6 +274,8 @@ body{
     border: 3.5px solid #fff;
     border-radius: 10px;
     box-shadow: 3px 3px rgba(255, 255, 255, 0.473);
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 1700ms forwards;
 }
 
 .resume-table{
@@ -201,6 +310,8 @@ body{
     background-color: rgba(0, 0, 0, 0.295);
     border: 3.5px solid #fff;
     border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 2000ms forwards;
 }
 
 .job h3{
@@ -231,8 +342,9 @@ body{
     grid-template-rows: 1fr;
     text-align: center;
     gap: 30px;
-    
     padding-top: 50px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 2000ms forwards;
 }
 
 .school{
@@ -276,6 +388,8 @@ body{
     color: #AD9600;
     font-family: quicksand, sans-serif;
     font-weight: bold;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 1200ms forwards;
   }
 
   .button span,

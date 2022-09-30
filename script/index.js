@@ -71,4 +71,32 @@ function newTab() {
 resumeButton.addEventListener('click', newTab);
 
 
+window.onload = function() {
+  var titleElement = document.getElementById("title");
+  var buttonElement = document.getElementById("button");
 
+  /*
+  var timer1 = 0;
+  var timer2 = 0;
+
+  for (let i = 0; i === 100; i++) {
+    return timer1 + i;
+    titleElement.style.opacity = `${timer1}%`;
+  };
+
+  for (let j = 0; j === 100; j++) {
+    return timer2 + j;
+    titleElement.style.opacity = `${timer2}%`;
+  };
+  
+
+  setTimeout(() => {
+    titleElement.style.visibility = 'visible';
+  }, 2000);
+
+  setTimeout(() => {
+    buttonElement.style.visibility = 'visible';
+  }, 3000);
+  */
+
+};
