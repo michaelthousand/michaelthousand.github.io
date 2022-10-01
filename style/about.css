@@ -153,6 +153,7 @@ body{
         font-size: 0.4rem;
     }
 }
+
 /*begin unique for this page*/
 
 #slideshow{
@@ -170,7 +171,7 @@ body{
     height: auto;
     width: auto;
     opacity: 0;
-    animation: fadeIn 2.5s ease-in 1700ms forwards;
+    animation: fadeIn 2.5s ease-in 2200ms forwards;
 }
 
 #slideshow p{
@@ -184,7 +185,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     opacity: 0;
-    animation: fadeIn 2.5s ease-in 2100ms forwards;
+    animation: fadeIn 2.5s ease-in 3200ms forwards;
 }
 
 #arrowButton{
@@ -193,7 +194,7 @@ body{
     margin-top: auto;
     margin-bottom: auto;
     opacity: 0;
-    animation: fadeIn 2.5s ease-in 2700ms forwards;
+    animation: fadeIn 2.5s ease-in 4500ms forwards;
 }
 
 #arrowButton:hover{

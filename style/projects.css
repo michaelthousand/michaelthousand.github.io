@@ -1,5 +1,14 @@
 /*updated for version 2.1.0*/
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
 html{
     font-size: 16px;
 }
@@ -11,14 +20,18 @@ body{
 .navbar{
     text-align: center;
     background-color: #0000009f;
-    line-height: 4rem;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 400ms forwards;
+    padding: 0px;
 }
 
 .navbar li{
     font-family: quicksand, sans-serif;
     font-size: 2.5rem;
+    line-height: 4rem;
     display: inline;
-    padding: 50px;
+    padding: 0px 50px;
+    margin: auto;
 }
 
 #currentPage a{
@@ -43,10 +56,102 @@ body{
     background-color: #0000009f;
     line-height: 4rem;
     margin-bottom: 0px;
-    margin-top: 425px;
     color: #fff;
     font-family: montserrat, sans-serif;
     font-size: 1.5rem;
+    opacity: 0;
+    animation: fadeIn 2s ease-in 400ms forwards;
+}
+
+@media only screen and (max-width: 1150px){
+    .navbar li{
+        font-size: 2rem;
+        line-height: 3rem;
+        padding: 0px 40px;
+    }
+
+    .footer{
+        font-size: 1.25rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar li{
+        padding: 0px 30px
+    }
+
+    .footer{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 715px){
+    .navbar li{
+        padding: 0px 20px;
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    .footer{
+        font-size: 0.8rem;
+        line-height: 2.55rem;
+    }
+}
+
+@media only screen and (max-width: 575px){
+    .navbar li{
+        padding: 0px 15px;
+        font-size: 1.25rem;
+    }
+
+    .footer{
+        font-size: 0.7rem;
+        line-height: 2.45rem;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .footer{
+        font-size: 0.6rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .navbar li{ 
+        font-size: 1rem;
+    }
+
+    .footer{
+        font-size: 0.55rem;
+        line-height: 2.25rem;
+    }
+}
+
+@media only screen and (max-width: 395px){
+    .navbar li{
+        padding: 0px 12px;
+    }
+
+    .footer{
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 355px){
+    .navbar li{
+        font-size: 0.75rem;
+    }
+
+    .footer{
+        font-size: 0.45rem;
+    }
+}
+
+@media only screen and (max-width: 325px){
+    .footer{
+        font-size: 0.4rem;
+    }
 }
 
 
@@ -67,6 +172,8 @@ body{
     height: 886.5px;
     margin-right: 150px;
     margin-top: 40px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 4000ms forwards;
 }
 
 #comp_build_text h1{
@@ -82,6 +189,8 @@ body{
     outline-offset: -10px;
     background-color: #55555588;
     border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 2000ms forwards;
 }
 
 #comp_build_text p{
@@ -91,11 +200,15 @@ body{
     margin-right: auto;
     padding: 0px 100px;
     line-height: 3rem;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 3000ms forwards;
 }
 
 #comp_build_text li{
     font-family: montserrat, sans-serif;
     font-size: 2rem;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 3000ms forwards;
 }
 
 #comp_build_text li strong{
@@ -125,6 +238,8 @@ body{
     outline-offset: -10px;
     background-color: #55555588;
     border-radius: 10px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 5000ms forwards;
 }
 
 #intro p{
@@ -132,6 +247,8 @@ body{
     font-family: montserrat, sans-serif;
     line-height: 3rem;
     padding: 0px 250px;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 6000ms forwards;
 }
 
 @media only screen and (max-width: 1550px) {
