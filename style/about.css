@@ -118,7 +118,7 @@ body{
 }
 
 @media only screen and (max-width: 450px){
-    .navbar li{ 
+    .navbar li{
         font-size: 1rem;
     }
 
@@ -444,10 +444,6 @@ body{
 
 /*begin responsive design*/
 @media only screen and (max-width: 2100px){
-    .navbar{
-        padding-left: 0px;
-    }
-
     #slideshow img{
         max-width: 862px;
     }
@@ -509,10 +505,6 @@ body{
 
 /*for Surface Pro 7 - horizontal */
 @media only screen and (max-width: 1370px){
-    #navbar{
-        padding-left: 0px;
-    }
-
     #slideshow{
         padding-left: 10px;
         padding-right: 10px;
@@ -574,10 +566,6 @@ body{
         font-size: 1.5rem;
     }
 
-    #resume-line{
-        font-size: 1.75rem;
-    }
-
     .footer{
         margin-top: 200px;
     }
@@ -616,20 +604,10 @@ body{
         font-size: 1.5rem;
         padding-left: 5px;
     }
-    
-    .footer{
-        font-size: 1.25rem;
-    }
 }
 
 /*for Pixel 5 - horizontal*/
 @media only screen and (max-width: 905px){
-    .navbar li{
-        font-size: 2rem;
-        line-height: 2.5rem;
-        padding: 0px 50px;
-    }
-
    #slideshow{
         display: block;
         text-align: center;
@@ -659,16 +637,18 @@ body{
         font-size: 1.25rem;
     }
 
-    #resume-line{
-        font-size: 1.25rem;
+    .button{
+        width: 300px;
+        height: 75px;
+        line-height: 75px;
     }
+
+    .button span {
+        font-size: 1.15rem;
+      }
 
     .edu-table{
         padding-top: 0px;
-    }
-
-    .footer{
-        font-size: 1.15rem;
     }
 }
 
@@ -682,10 +662,6 @@ body{
     .skills-table{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-
-    #resume-line{
-        padding-left: 0px;
     }
 
     .resume-table{
@@ -713,21 +689,10 @@ body{
     .school p{
         font-size: 1.5rem;
     }
-
-    .footer{
-        font-size: 1rem;
-        margin-top: 150px;
-    }
 }
 
 /*for iPhone SE - horizontal */
 @media only screen and (max-width: 690px){
-    .navbar li{
-        font-size: 1.75rem;
-        line-height: 2rem;
-        padding: 0px 38px;
-    }
-
     #slideshow img{
         max-width: 530px;
         max-height: 732.7px;
@@ -754,10 +719,6 @@ body{
     .school p{
         font-size: 1.25rem;
     }
-
-    .footer{
-        font-size: 0.9rem;
-    }
 }
 
 @media only screen and (max-width: 590px){
@@ -769,15 +730,28 @@ body{
         max-width: 450.5px;
         max-height: 623px;
     }
+
+    .button{
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .button span {
+        font-size: 1rem;
+      }
+
+    .button .icon .fa {
+        font-size: 20px;
+    }
+
+    .button:hover .icon .fa {
+        font-size: 35px;
+    }
 }
 
 /*for Surface Duo - vertical*/
 @media only screen and (max-width:550px){
-    .navbar li{
-        padding: 0px 22px;
-        font-size: 1.6rem;
-    }
-    
     #resume-line{
         padding-right: 5px;
         padding-left: 5px;
@@ -802,12 +776,6 @@ body{
     .school p{
         font-size: 1.25rem;
     }
-    
-    .footer{
-        font-size: 0.75rem;
-        line-height: 2.5rem;
-        margin-top: 145px;
-    }
 }
 
 @media only screen and (max-width: 500px){
@@ -824,11 +792,6 @@ body{
 
 /*for iPhone XR - vertical*/
 @media only screen and (max-width: 417px){
-    .navbar li{
-        padding: 0px 20px;
-        font-size: 1.5rem;
-    }
-
     #slideshow img{
         max-height: 450.5px;
         max-width: 325px;
@@ -854,31 +817,35 @@ body{
     #backArrowButtonTwo{
         font-size: 3.75rem;
     }
-
-    .footer{
-        line-height: 2rem;
-    }
 }
 
 /*for iPhone 12 Pro - vertical*/
 @media only screen and (max-width: 390px){
-    .navbar li{
-        font-size: 1.25rem;
-        padding: 0px 22px;
-    }
-
     .container h1{
         font-size: 3rem;
         line-height: 4.5rem;
     }
+
+    .button{
+        width: 250px;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    .button span {
+        font-size: 1rem;
+      }
+
+    .button .icon .fa {
+        font-size: 20px;
+    }
+
+    .button:hover .icon .fa {
+        font-size: 35px;
+    }
 }
 
 @media only screen and (max-width: 365px){
-    .navbar li{
-        font-size: 1.15rem;
-        padding: 0px 20px;
-    }
-
     #slideshow img{
         max-height: 415px;
         max-width: 300px;
@@ -886,11 +853,6 @@ body{
 }
 
 @media only screen and (max-width: 335px){
-    .navbar li{
-        font-size: 1rem;
-        padding: 0px 17px;
-    }
-
     #slideshow img{
         max-width: 275px;
         max-height: 400px;
@@ -919,13 +881,6 @@ body{
 
     .school p{
         font-size: 1.15rem;
-    }
-}
-
-/*for Galaxy Fold - vertical*/
-@media only screen and (max-width: 330px){
-    .navbar li{
-        padding: 0px 15px;
     }
 }
 

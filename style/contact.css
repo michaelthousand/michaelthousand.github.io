@@ -118,7 +118,7 @@ body{
 }
 
 @media only screen and (max-width: 450px){
-    .navbar li{ 
+    .navbar li{
         font-size: 1rem;
     }
 
@@ -153,7 +153,6 @@ body{
         font-size: 0.4rem;
     }
 }
-
 
 
 /*begin unique for this page*/
@@ -259,28 +258,44 @@ body{
 /*for SurfaceDuo*/
 @media only screen and (max-width: 600px){
     #pic img{
-        margin-top: 0px;
+        margin-top: 50px;
         height: 300px;
         width: 300px;
     }
 
-    .contact-list{
-        padding-left: 0px;
+    .icons a{
+        font-size:4rem
+    }
+
+    .fa{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .footer{
+        margin-top: 200px;
     }
 }
 
 /*for iphone XR and Galaxy S20 ULtra/A51*/
 @media only screen and (max-width: 435px){
-
-    .contact-list li{
-        font-size: 1.5rem;
-        line-height: 2.25rem;
+    #pic img{
+        height: 275px;
+        width: 275px;
+    }
+    
+    .icons a{
+        font-size:3rem
     }
 
+    .fa{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+    
     .footer{
-        font-size: 0.8rem;
-        line-height:2.5rem;
-        margin-top: 50px;
+        margin-top: 230px;
     }
 }
 
@@ -295,5 +310,9 @@ body{
     .contact-list li{
         font-size: 1.25rem;
         line-height: 2rem;
+    }
+
+    .footer{
+        margin-top: 285px;
     }
 }
