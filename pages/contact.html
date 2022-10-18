@@ -9,16 +9,35 @@
             <link rel="stylesheet" href="../style/contact.css">  
             <meta content="width=device-width, initial-scale=1" name="viewport" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         </head>
 
         <header>
             <nav>
+                <div class="dropdown">
+                    <button class="dropbtn"><span class="material-symbols-outlined">
+                        menu
+                        </span> Menu</button>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./projects.html">Projects</a></li>
+                            <li><a id="currentPage" href="./contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                  </div>
+                <div class="myName">
+                    <h3>Michael Thousand.com</h3>
+                </div>
+            <!--
                 <ul class="navbar">
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li id="currentPage"><a href="contact.html">Contact</a></li>
                 </ul>
+            -->
             </nav>
         </header>
 
@@ -31,9 +50,16 @@
                 <a href="https://www.linkedin.com/in/michael-thousand-89981911b/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
                 <a href="mailto:me@michaelthousand.com"><i class="fa fa-envelope"></i></a>
             </div>  
+            <div id="contactMe">
+                <h1>Get in touch with me!</h1>
+                <p>If you would like to contact me for a potential job or project, please use the email and LinkedIn icons above. For more information about my work, check out my GitHub.
+                </p>
+                <p>And thank you for visiting my site!</p>
+            </div>
+            
             
             <!--
-            <form action="thankyou.php" name="myemailform" method="POST" enctype="" id="submissionForm">
+            <form action="" name="submissionForm" method="POST" enctype="multipart/form-data" id="submissionForm">
                 <h1>Get in touch with me!</h1>
                 <p>If you would like to contact me about a potential job or just with general comments, please feel free to use the form below:</p>
                 <label for="name">What's your name?</label>
@@ -86,6 +112,8 @@
                 <p>Created and designed by Michael Thousand - &copy; 2022. Photo by Manor Studios 1848.</p>
             </div> 
         </footer>
+
+        <script src="./script/contact.js"></script>
 
     </body>
 </html>
