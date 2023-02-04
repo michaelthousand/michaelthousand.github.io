@@ -1,5 +1,3 @@
-/*updated for version 2.0.2*/
-
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 
@@ -44,7 +42,6 @@ nav{
     display: inline-block;
     opacity: 0;
     animation: fadeIn 2.5s ease-in 400ms forwards;
-    z-index: 10;
 }
   
 /* Dropdown Content (Hidden by Default) */
@@ -102,28 +99,11 @@ nav{
 }
 
 /*begin unique for this page*/
-
-#pic{
-    display: flex;
-    justify-content: center;
-}
-
-#pic img{
-    height: 400px;
-    width: 400px;
-    border-radius: 250px;
-    margin-top: 30px;
-    opacity: 0;
-    animation: fadeIn 2.5s ease-in 2000ms forwards;
-}
-
 h1{
     font-family: quicksand, sans-serif;
     font-size: 5rem;
     color: #fff;
     text-align: center;
-    opacity: 0;
-    animation: fadeIn 2.5s ease-in 6000ms forwards;
 }
 
 p{
@@ -134,152 +114,29 @@ p{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0;
-    animation: fadeIn 2.5s ease-in 7000ms forwards;
 }
 
-.icons{
-    margin-top: 50px;
+#comp_build{
+    text-align: center;
+}
+
+#comp_build_imgs img{
+    width: 664.5px;
+    height: 886.5px;
+    
     display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.icons a{
-    font-size:5rem
-}
-
-.fa{
-    color:#E0C100;
-    padding: 50px;
-}
-
-.fa-github{
-    opacity: 0;
-    animation: fadeIn 2.5s ease-in 3000ms forwards;
-}
-
-.fa-linkedin-square{
+    margin: auto;
     opacity: 0;
     animation: fadeIn 2.5s ease-in 4000ms forwards;
 }
 
-.fa-envelope{
-    opacity: 0;
-    animation: fadeIn 2.5s ease-in 5000ms forwards;
-}
-
-#submissionForm{
-    text-align: center;
-    margin: 50px;
-    padding: 20px 50px 50px 50px;
-    border: 5px solid rgba(255, 255, 255, 0.521);
-    border-radius: 10px;
-}
-
-#submissionForm h1{
-    font-family: quicksand, sans-serif;
-    font-size: 4rem;
-    color: #fff;
-}
-
-#submissionForm p{
+#comp_build li{
     font-family: montserrat, sans-serif;
     font-size: 2rem;
-    color: #fff;
+    opacity: 0;
+    animation: fadeIn 2.5s ease-in 3000ms forwards;
 }
 
-#submissionForm label, span{
-    font-family: montserrat, sans-serif;
-    font-size: 1.5rem;
-    color:#fff
-}
-
-#submissionForm input, textarea, option, select{
-    font-family: montserrat, sans-serif;
-    font-size: 1.25rem;
-}
-
-#submissionForm label{
-    line-height: 2.5rem;
-}
-
-#submissionForm input[type="text"], select{
-    margin-left: 10px;
-}
-
-#submissionForm input[type="submit"]{
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.radioButtons{
-    margin-left: 50px;
-}
-
-.footer{
-    margin-top: 100px;
-}
-
-/*for SurfaceDuo*/
-@media only screen and (max-width: 600px){
-    #pic img{
-        margin-top: 50px;
-        height: 300px;
-        width: 300px;
-    }
-
-    .icons a{
-        font-size:4rem
-    }
-
-    .fa{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    .footer{
-        margin-top: 200px;
-    }
-}
-
-/*for iphone XR and Galaxy S20 ULtra/A51*/
-@media only screen and (max-width: 435px){
-    #pic img{
-        height: 275px;
-        width: 275px;
-    }
-    
-    .icons a{
-        font-size:3rem
-    }
-
-    .fa{
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 20px;
-    }
-    
-    .footer{
-        margin-top: 230px;
-    }
-}
-
-/*for Galaxy Fold*/
-@media only screen and (max-width: 350px){
-
-    #pic img{
-        height: 220px;
-        width: 220px;
-    }
-
-    .contact-list li{
-        font-size: 1.25rem;
-        line-height: 2rem;
-    }
-
-    .footer{
-        margin-top: 285px;
-    }
+#comp_build li strong{
+    color: #AD9600;
 }

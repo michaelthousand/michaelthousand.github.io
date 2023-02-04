@@ -8,24 +8,81 @@
             <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&family=Raleway&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="../style/projects.css"> 
             <meta content="width=device-width, initial-scale=1" name="viewport" /> 
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
         </head>
 
         <header>
             <nav>
-                <ul class="navbar">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li id="currentPage"><a href="projects.html">Projects</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
+                <div class="dropdown">
+                    <button class="dropbtn"><span class="material-symbols-outlined">
+                        menu
+                        </span> Michael <span id="lastName"> Thousand</span></button>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <div class="prj">
+                                <li class="project-button"><a href="./projects.html">Projects</a></li>
+                                    <div class="project-dropdown">
+                                        <ul>
+                                            <li><a href="./java.html">Java</a></li>
+                                            <li><a href="./python.html">Python</a></li>
+                                            <li><a href="./general.html">General</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
             </nav>
         </header>
 
         <main>
-            <div class="container" id="sep_15_22">
-                <div id="comp_build_text">
-                    <h1>September 15th, 2022</h1>
-                    <p>Almost 25 years after taking apart my first computer, I decided it was time to finally put one together. I completed my first PC build today as you can see below.</p>
+            <div class="container" id="Projects">
+                <div id="intro">
+                    <h1>Recent Projects</h1>
+                    <p>Here you will find some of my more recent projects. For more information on a specfic language, you can view the Python or Java language.</p>
+                </div>
+                <br>
+                <br>
+                <div id="TextConvertor">
+                    <h1>Pig Latin Text Convertor</h1>
+                    <p>The following program prompts the user to enter a sentence and converts it to Pig Latin.</p>
+                    <p>As you can see, it involves using a custom function that checks for vowels and consonants at the start of the individual words.</p>
+                    <p>The program will run until the user enters "exit".</p>
+                    <div class="pics" >
+                        <img src="../content/textconversion.png" alt="Picture of the code for Text Convertor">
+                    </div>
+                    <a class="button" id="button" style="color: #AD9600;" href="https://github.com/michaelthousand/PigLatin" role="button" target="_blank">
+                        <span>View on GitHub</span>
+                        <div class="icon">
+                          <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </a>
+                </div>
+                <br>
+                <br>
+                <div id="StringSearcher">
+                    <h1>String Searcher</h1>
+                    <p>The following application searches a specified text file for a string. The user passes the string and file name as command line arguments and the program returns the number of occurences.</p>
+                    <p>As you can see below, the program checks for improper arguments and can handle some exceptions that may occur. If there are no errors, it prints out the number of occurences in the file.</p>
+                    <div class="pics" >
+                        <img src="../content/stringsearcher.png" alt="Picture of the code for String Searcher">
+                    </div>
+                    <a class="button" id="button" style="color: #AD9600;" href="https://github.com/michaelthousand/StringSearcher" role="button" target="_blank">
+                        <span>View on GitHub</span>
+                        <div class="icon">
+                          <i class="fa fa-arrow-down"></i>
+                        </div>
+                    </a>
+                </div>
+                <br>
+                <br>
+                <div id="comp_build">
+                    <h1>Custom PC Build</h1>
+                    <p>I recently completed building my first custom PC for programming, gaming, and video game developing (Unreal Engine & Unity). Still working on the cable management though...</p>
                     <p>Components used:</p>
                     <ul>
                         <li><strong>CPU:</strong> Intel i7 - 12700K</li>
@@ -40,25 +97,17 @@
                 </div>
                 <div id="comp_build_imgs">
                     <img src="../content/cpu_1.jpg" alt="A picture of my new build PC">
-                    <!-- <img src="./cpu_2.jpg" alt="A second view of my new build PC"> -->
+                    <img src="../content/cpu_2.jpg" alt="A second view of my new build PC">
                 </div>
             </div>
 
-            <div class="container" id="sep_2_22">
-                <div id="intro">
-                    <h1>September 2nd, 2022</h1>
-                    <p>This page will look a lot more exciting in the future, but right now it's pretty empty. That's because this website is really my current project! In addition to this site,
-                        I am currently working on learning Java and Python as part of the Berkeley certificate program.</p>
-                    
-                    <p>I will be adding more as time goes on!</p>
-                </div>
-            </div>    
+            
         
         </main>
 
         <footer>
             <div class="footer">
-                <p>Created and designed by Michael Thousand - &copy; 2022</p>
+                <p>Created and designed by Michael Thousand - &copy; 2023</p>
             </div> 
         </footer>
 
